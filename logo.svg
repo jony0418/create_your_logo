@@ -1,0 +1,6 @@
+
+      <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="100,10 200,200 0,200" stroke="black" stroke-width="3" fill="Blue" />
+        <text x="150" y="100" font-size="20" text-anchor="middle" fill="RED">JBN</text>
+      </svg>
+    
