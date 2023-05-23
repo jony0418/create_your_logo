@@ -42,11 +42,11 @@ inquirer
     }
     
     const svg = `
-      <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-        ${shape.render()}
-        <text x="150" y="100" font-size="20" text-anchor="middle" fill="${answers.textColor}">${answers.text}</text>
-      </svg>
-    `;
+    <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+      ${shape.render()}
+      <text x="50%" y="50%" font-size="40" text-anchor="middle" dominant-baseline="middle" fill="${answers.textColor}">${answers.text}</text>
+    </svg>
+  `;
 
     fs.writeFile('logo.svg', svg, (err) => {
       if (err) throw err;
